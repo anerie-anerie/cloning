@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CS Nerd Game</title>
+  
+  <!-- Link to Roboto font from Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Link to your custom stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="game-container">
+
+    <!-- Introductory Text -->
+    <div id="intro-text">
+      <h2>You're at your desk!</h2>
+      <p>Start by studying or taking a shower.</p>
+    </div>
+
+    <!-- Game Screen Content -->
+    <div id="game-screen">
+      <!-- Content changes based on the current screen -->
+    </div>
+
+    <!-- Buttons for navigation -->
+    <div id="controls" style="display: none;">
+      <button id="study">Study</button>
+      <button id="shower">Take a Shower</button>
+      <button id="go-outside" style="display: none;">Go Outside</button>
+      <button id="touch-grass" style="display: none;">Touch Grass</button>
+      <button id="walk-past-girl" style="display: none;">Walk Past Girl</button>
+      <button id="talk-to-girl" style="display: none;">Talk to Girl</button>
+      <button id="start-exam" style="display: none;">Start Exam</button>
+      <button id="stop-touch" style="display: none;">STOP!</button>
+      <button id="good-line" style="display: none;">You are a cutie so hott im dying of heat</button>
+      <button id="bad-line" style="display: none;">you look sad, need help? call me for math tutoring</button>
+
+
+  <!-- Stats Bar -->
+  <div id="stat-bar">
+      <h3>Stats Bar</h3>
+      <div>
+          <label>Aura: <span id="aura-value">0</span></label>
+          <progress id="aura-progress" value="0" max="100"></progress>
+      </div>
+      <div>
+          <label>Degree: <span id="degree-value">0</span></label>
+          <progress id="degree-progress" value="0" max="100"></progress>
+      </div>
+  </div>
+
+  <!-- Link to your script -->
+  <script src="script.js"></script>
+</body>
+</html>
